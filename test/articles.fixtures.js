@@ -23,7 +23,7 @@ function makeArticlesArray() {
       },
       {
         id: 4,
-        date_published: '1919-12-22T16:28:32.615Z',
+       date_published: '1919-12-22T16:28:32.615Z',
         title: 'Fourth test post!',
         style: 'Story',
         content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum molestiae accusamus veniam consectetur tempora, corporis obcaecati ad nisi asperiores tenetur, autem magnam. Iste, architecto obcaecati tenetur quidem voluptatum ipsa quam?'

@@ -4,7 +4,14 @@ const { PORT, DB_URL } = require('./config')
 
 const db = knex({
     client: 'pg',
-    connection: DB_URL,
+    connection: {
+      host     : 'localhost',
+      port      : '5432',
+      user     : 'postgres', 
+      database : 'blogful',
+      charset  : 'utf8',
+      timezone : 'utc'
+    }
   })
 
   app.set('db', db)
